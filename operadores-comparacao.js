@@ -1,3 +1,5 @@
+//AULA 4
+
 console.log(`10 > 5 = ${ 10 > 5 }`)
 console.log(10 > 5)
 console.log(`10 > 20 = ${ 10 > 20 }`)
@@ -82,3 +84,42 @@ console.log(6 % 2)
 console.log(11 / 2)
 console.log(11 % 2)
 console.log(4 ** 4)
+
+//AULA 5
+//-- decremento e ++ incremento e ? ternário
+console.log('\n++ incremento')
+let pesoDog = 10
+console.log(pesoDog)
+
+pesoDog++
+console.log(pesoDog)
+
+console.log('\n-- decremento')
+let pesoCat = 10
+console.log(pesoCat)
+
+pesoCat--
+console.log(pesoCat)
+
+console.log('\n? ternario')
+//<condição> ? <ação se verdadeiro> : <ação se falso>
+const porte = pesoDog <= 11 ? 'pequeno' : 'medio'
+//            condição         se         senao
+console.log(porte)
+
+const pesodoDog = 21
+const portee = pesodoDog <= 10 //se
+              ? 'pequeno'
+              : pesodoDog <= 20 //senao se
+              ? 'medio'
+              : 'grande' //senao
+
+
+console.log(portee)
+
+//arredondamento 
+console.log('\nArredondamento')
+console.log(Math.floor(5.8)) //para baixo
+console.log(Math.round(5.8)) //para o mais próximo
+console.log(Math.round(5.4)) //para o mais próximo
+console.log(Math.ceil(5.8)) //para cima

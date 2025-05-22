@@ -11,7 +11,7 @@ console.log('Nome Original: ' , nomes)
 console.log('Nome Formatado: ', nomesFormatados);
 
 
-
+//correção em aula 
 
 const nomeDog = '   Ba!ley Mari@    '
 

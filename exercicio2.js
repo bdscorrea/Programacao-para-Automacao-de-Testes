@@ -1,5 +1,5 @@
 
-const nomes = ['Amora', 'anora', 'Teste', 'P125sa'];
+const nomes = ['Amora', 'anoRa', 'Teste', 'P125sa'];
 const nomesFormatados = [];
 for (let i = 0; i < nomes.length; i++) {
   let capitalizeArray = nomes[i].toUpperCase();

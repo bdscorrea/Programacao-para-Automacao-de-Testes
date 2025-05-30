@@ -20,5 +20,8 @@
   "description": "",
   "dependencies": {
     "aula2": "file:"
+  },
+  "devDependencies": {
+    "mocha": "^11.5.0"
   }
 }

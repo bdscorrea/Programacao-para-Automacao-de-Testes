@@ -1,0 +1,24 @@
+{
+  "name": "aula2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdscorrea/Programacao-para-Automacao-de-Testes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdscorrea/Programacao-para-Automacao-de-Testes/issues"
+  },
+  "homepage": "https://github.com/bdscorrea/Programacao-para-Automacao-de-Testes#readme",
+  "description": "",
+  "dependencies": {
+    "aula2": "file:"
+  }
+}

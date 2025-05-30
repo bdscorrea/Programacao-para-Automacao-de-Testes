@@ -8,9 +8,9 @@ function exibirIdade(paramIdadePet) {
     console.log(`Idade do pet é ${paramIdadePet}`)
 }
 
-exibirNomePet('Pipoca')
-exibirNomePet('Thor')
-exibirNomePet('Xuxu')
+//exibirNomePet('Pipoca')
+//exibirNomePet('Thor')
+//exibirNomePet('Xuxu')
 
 
 export {

@@ -1,4 +1,6 @@
 import assert from 'node:assert';
+import { test, expect } from '@playwright/test';
+
 
 import {
   geradorDeTagsDeIdentificacao,

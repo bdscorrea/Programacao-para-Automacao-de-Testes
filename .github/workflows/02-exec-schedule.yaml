@@ -1,12 +1,16 @@
-#CI de Nivel 01 - Disparo Manual
+#CI de Nivel 02 - Disparo agendado
 
 # nome do nosso 'pipeline'
-name: 'Execução Manual'
+name: 'Execução Agendada'
 
 # regras de disparo (gatilho/triggers)
 #gatilho de exec manual = workflow_dispatch
+#gatilho de exec agendada = schedule
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1' #toda segunda-feira as 06h
+    #configuração de quanto em quanto tempo vai rodar
+    # a- minuto | b- hora | c- dia do mês | d- mês | e- dia da semana | cron a b c d e
 
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
@@ -36,7 +40,7 @@ jobs:
       - name: Instalando playwright
         run: yarn playwright install
 
-      # executar os testes do trabalho-final
+      # executar os testes TrabalhoFinal
       - name: Executando Testes TrabalhoFinal
         run: yarn run TrabalhoFinal
 

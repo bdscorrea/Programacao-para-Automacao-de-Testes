@@ -39,3 +39,9 @@ jobs:
       # executar os testes do trabalho-final
       - name: Executando Testes TrabalhoFinal
         run: yarn run TrabalhoFinal
+
+      - uses: actions/upload-artifact@v4
+        if: success() || failure()
+        with:
+          name: report
+          path: ./mochawesome-report

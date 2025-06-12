@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "TrabalhoFinal": "mocha TrabalhoFinal/trabalho-final.js"
+    "TrabalhoFinal": "mocha TrabalhoFinal/trabalho-final.js",
+    "test:report": "mocha TrabalhoFinal/trabalho-final.js --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@playwright/test": "^1.53.0",
     "mocha": "^11.6.0",
+    "mochawesome": "^7.1.3",
     "playwright": "^1.53.0"
   }
 }

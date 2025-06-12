@@ -13,19 +13,16 @@ assertion/asserção
     verificcar se um comportamento esta de acordo com o esperado
 */
 
-import {exibirNomeDogFormatado} from '../testesdeunidade.js'
-import assert from 'node:assert'
+import { exibirNomeDogFormatado } from "../testesdeunidade.js";
+import assert from "node:assert";
 
-describe('Testes do Projeto', () => {
+describe("Testes do Projeto", () => {
+  it("deve exibir o nome do dog com letras maiusculas", () => {
+    assert.strictEqual(exibirNomeDogFormatado("Mimosa"), "MIMOSA");
+  });
 
-     it('deve exibir o nome do dog com letras maiusculas', () => {
-        assert.strictEqual(exibirNomeDogFormatado('Mimosa'), 'MIMOSA')
-    })
-
-    it('primeiro teste', () => {
-
-    })
-    it('segundo teste', () => { 
-        throw new Error()
-    })
-})
+  it("primeiro teste", () => {});
+  it("segundo teste", () => {
+    throw new Error();
+  });
+});

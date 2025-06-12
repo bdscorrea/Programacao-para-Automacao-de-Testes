@@ -8,10 +8,10 @@ tentar {
  lançar = throw
  */
 try {
-    console.log(`Tentando aliemntar o dog...`)
-    throw new Error(`Dog não quis alimento`)
+  console.log(`Tentando aliemntar o dog...`);
+  throw new Error(`Dog não quis alimento`);
 } catch (excecao) {
-    console.log(excecao)
+  console.log(excecao);
 } finally {
-    console.log(`SEMPRE SEREI EXECUTADO!`)
+  console.log(`SEMPRE SEREI EXECUTADO!`);
 }

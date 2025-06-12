@@ -1,14 +1,14 @@
 #CI de Nivel 02 - Disparo agendado
 
 # nome do nosso 'pipeline'
-name: 'Execução Agendada'
+name: "Execução Agendada"
 
 # regras de disparo (gatilho/triggers)
 #gatilho de exec manual = workflow_dispatch
 #gatilho de exec agendada = schedule
 on:
   schedule:
-    - cron: '0 6 * * 1' #toda segunda-feira as 06h
+    - cron: "0 6 * * 1" #toda segunda-feira as 06h
     #configuração de quanto em quanto tempo vai rodar
     # a- minuto | b- hora | c- dia do mês | d- mês | e- dia da semana | cron a b c d e
 
@@ -43,5 +43,3 @@ jobs:
       # executar os testes TrabalhoFinal
       - name: Executando Testes TrabalhoFinal
         run: yarn run TrabalhoFinal
-
-

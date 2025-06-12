@@ -1,4 +1,4 @@
-import { nomesCaes, nomesGatos, entregarPetiscos } from './exercicio9.dados.js'
+import { nomesCaes, nomesGatos, entregarPetiscos } from "./exercicio9.dados.js";
 
 //function entregarPetiscos(nomesCaes) {
 
@@ -7,7 +7,5 @@ import { nomesCaes, nomesGatos, entregarPetiscos } from './exercicio9.dados.js'
 //});
 //}
 
-
-
-entregarPetiscos(nomesCaes)
-entregarPetiscos(nomesGatos)
+entregarPetiscos(nomesCaes);
+entregarPetiscos(nomesGatos);

@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "TrabalhoFinal": "mocha TrabalhoFinal/trabalho-final.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "aula2": "file:"
   },
   "devDependencies": {
-    "mocha": "^11.5.0"
+    "mocha": "^11.6.0",
+    "playwright": "^1.53.0"
   }
 }

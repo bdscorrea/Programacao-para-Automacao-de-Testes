@@ -8,7 +8,7 @@ name: "Execução Agendada"
 #gatilho de exec agendada = schedule
 on:
   schedule:
-    - cron: "0 6 * * 1" #toda segunda-feira as 06h
+    - cron: "0 6 * * 5" #toda segunda-feira as 06h
     #configuração de quanto em quanto tempo vai rodar
     # a- minuto | b- hora | c- dia do mês | d- mês | e- dia da semana | cron a b c d e
 

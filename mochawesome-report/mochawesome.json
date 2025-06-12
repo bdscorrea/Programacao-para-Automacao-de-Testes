@@ -5,9 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2025-06-12T20:49:35.891Z",
-    "end": "2025-06-12T20:49:35.903Z",
-    "duration": 12,
+    "start": "2025-06-12T20:58:16.839Z",
+    "end": "2025-06-12T20:58:16.853Z",
+    "duration": 14,
     "testsRegistered": 5,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b4ac00b4-be08-4c9a-8281-f25aa78cdb5b",
+      "uuid": "04716c6a-6d6c-4056-885c-4da93be34a88",
       "title": "",
       "fullFile": "C:\\Users\\Beatriz S Correa\\Documents\\Pós-graduação em Automação de Testes de Software  2025\\Programação para Automação de Testes\\Programacao-para-Automacao-de-Testes\\TrabalhoFinal\\trabalho-final.js",
       "file": "\\TrabalhoFinal\\trabalho-final.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0242b228-8832-48f4-aa30-421d2ca3e560",
+          "uuid": "6982d1be-3f78-4007-8605-24656158a46c",
           "title": "Testes da disciplina - fundamentos JS",
           "fullFile": "C:\\Users\\Beatriz S Correa\\Documents\\Pós-graduação em Automação de Testes de Software  2025\\Programação para Automação de Testes\\Programacao-para-Automacao-de-Testes\\TrabalhoFinal\\trabalho-final.js",
           "file": "\\TrabalhoFinal\\trabalho-final.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "assert.strictEqual(geradorDeTagsDeIdentificacao(\"Pantera\"), \"PANTERA\");",
               "err": {},
-              "uuid": "876ee5ed-1c7f-4c96-867a-382b6ec56a19",
-              "parentUUID": "0242b228-8832-48f4-aa30-421d2ca3e560",
+              "uuid": "4ac92d90-6097-4979-b4be-aa400684d580",
+              "parentUUID": "6982d1be-3f78-4007-8605-24656158a46c",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "assert.strictEqual(verificarSePodeSerAdotado(1, \"M\"), true);",
               "err": {},
-              "uuid": "93b111b7-2b75-482b-9796-b68ee03fad93",
-              "parentUUID": "0242b228-8832-48f4-aa30-421d2ca3e560",
+              "uuid": "8d746445-4e8d-4d54-91af-bd6870b98b15",
+              "parentUUID": "6982d1be-3f78-4007-8605-24656158a46c",
               "isHook": false,
               "skipped": false
             },
@@ -83,8 +83,8 @@
               "context": null,
               "code": "assert.strictEqual(calcularConsumoDeRacao(\"Pitoco\", 1, 14.5), 4350);",
               "err": {},
-              "uuid": "05b05427-8849-4fd2-a496-518e6e41bc74",
-              "parentUUID": "0242b228-8832-48f4-aa30-421d2ca3e560",
+              "uuid": "db1eeb13-7803-447a-ba1f-81598b8338b4",
+              "parentUUID": "6982d1be-3f78-4007-8605-24656158a46c",
               "isHook": false,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "QUANDO o porte = pequeno, DEVE ser retornada a atividade adequada",
               "fullTitle": "Testes da disciplina - fundamentos JS QUANDO o porte = pequeno, DEVE ser retornada a atividade adequada",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -101,8 +101,8 @@
               "context": null,
               "code": "assert.strictEqual(\n  decidirTipoDeAtividadePorPorte(\"pequeno\"),\n  \"brincar dentro de casa\",\n);",
               "err": {},
-              "uuid": "fb9d0757-7093-4a27-b9e6-550b1c995972",
-              "parentUUID": "0242b228-8832-48f4-aa30-421d2ca3e560",
+              "uuid": "54c5c5f5-de0b-4db3-a1d2-d861638074a9",
+              "parentUUID": "6982d1be-3f78-4007-8605-24656158a46c",
               "isHook": false,
               "skipped": false
             },
@@ -119,24 +119,24 @@
               "context": null,
               "code": "const resultado = await buscarDadoAsync();\nassert.strictEqual(resultado, \"Pipoca\");",
               "err": {},
-              "uuid": "9b4d7252-c885-4e9f-90ab-30110bf40d17",
-              "parentUUID": "0242b228-8832-48f4-aa30-421d2ca3e560",
+              "uuid": "e2829296-e546-4b67-bc9d-c25252b1dcf1",
+              "parentUUID": "6982d1be-3f78-4007-8605-24656158a46c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "876ee5ed-1c7f-4c96-867a-382b6ec56a19",
-            "93b111b7-2b75-482b-9796-b68ee03fad93",
-            "05b05427-8849-4fd2-a496-518e6e41bc74",
-            "fb9d0757-7093-4a27-b9e6-550b1c995972",
-            "9b4d7252-c885-4e9f-90ab-30110bf40d17"
+            "4ac92d90-6097-4979-b4be-aa400684d580",
+            "8d746445-4e8d-4d54-91af-bd6870b98b15",
+            "db1eeb13-7803-447a-ba1f-81598b8338b4",
+            "54c5c5f5-de0b-4db3-a1d2-d861638074a9",
+            "e2829296-e546-4b67-bc9d-c25252b1dcf1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

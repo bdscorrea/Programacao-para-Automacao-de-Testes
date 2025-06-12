@@ -48,4 +48,4 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: report
-          path: ./test-results
+          path: ./playwright-report

@@ -44,8 +44,4 @@ jobs:
       - name: Executando Testes TrabalhoFinal
         run: yarn run TrabalhoFinal
 
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() }}
-        with:
-          name: report
-          path: ./playwright-report
+

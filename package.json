@@ -23,6 +23,7 @@
     "aula2": "file:"
   },
   "devDependencies": {
+    "@playwright/test": "^1.53.0",
     "mocha": "^11.6.0",
     "playwright": "^1.53.0"
   }
